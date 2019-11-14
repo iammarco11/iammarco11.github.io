@@ -1,6 +1,6 @@
 <section id="project">
   <div class="project-wrap">
-    <p class="title">PROJECTS 🙋🏻</p>
+    <p class="title">PROJECTS</p>
     <div class="card-container">
       {% for _ in site.data.projects %}
       {% assign project = _.project %}
@@ -31,7 +31,9 @@
             {% if project.url %}
             {% assign url = project.url %}
             <a href="{{ url }}/subscription"><i class="far fa-eye"></i></a>
-            <a href="{{ url }}"><i class="fas fa-star"></i></a>
+            <!-- Place this tag where you want the button to render. -->
+            <!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"><a class="github-button" href="https://github.com/iammarco11/amfoss_tshirts" data-color-scheme="no-preference: light; light: light; dark: dark;" aria-label="Star iammarco11/amfoss_tshirts on GitHub">Star</a></script>
             <a href="{{ url }}/fork"><i class="fas fa-code-branch"></i></a>
             {% endif %}
             {% if project.modal %}

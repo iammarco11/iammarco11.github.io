@@ -4,18 +4,18 @@ url : "https://iammarco11.github.io"
 
 # Blog Settings
 theme_settings :
-  title : Grape Theme
+  title : Akshay Praveen Nair -Innovator|Problem Solver|Web Developer
   favicon : assets/favicon.ico
 
   # Profile Settings
   profile :
     image : assets/img/dp.jpg
-    username : akshay
+    username : Akshay Praveen Nair
     description : I am a BTech student in Amrita Vishwa Vidyapeetham. My course is core CSE. 
     experience :
-      - start : 2017-05-03
-        end : 2018-05-06
-        experience : company name, title
+      - start : 11-07-2019 
+        end : present
+        experience : amfoss club
     skills : 
       - skill : HTML5, CSS
         value : 75  # Percent value
@@ -23,6 +23,9 @@ theme_settings :
         value : 79
       - skill : python
         value : 80
+      - skill : c++
+        value : 40
+
   # Icons
   icons :
     email:  akshaypraveennair11@gmail.com
