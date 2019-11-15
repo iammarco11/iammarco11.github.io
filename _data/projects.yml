@@ -5,7 +5,7 @@
     image : "product-view.png" # path: assets/project/
     date : 28.10.2019 - 12.11.2019
     title : Django shopping cart
-    summary : Just a portal where amfoss club members can buy tshirts. I have hosted it in heroku also. [amfoss-tshirts](https://amfoss-tshirts.herokuapp.com)
+    summary : Just a portal where amfoss club members can buy tshirts. I have hosted it in heroku also.<br> <a href="https://amfoss-tshirts.herokuapp.com)">amfoss-tshirts</a>
     description : This is a shopping cart made with django for amfoss club members to buy tshirts. I have integrated gpay in the cart so the users can checkout.
     contents :
         - title : 1. Homepage
