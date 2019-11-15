@@ -3,6 +3,21 @@
 <header>
   <nav>
     <ul>
+      
+      {% case current[-1] %}
+      {%when 'html'%}
+      <a href="{{ site.url }}">
+        <li class="btn-nav">Home</li>
+      </a>
+      <a href="{{ site.url }}/tags">
+        <li class="btn-nav">Tags</li>
+      </a>
+      <a href="{{site.url}}/blog/">
+        <li class="current">Blog</li>
+      </a>
+      
+      {%else%}
+      
       {% case current[0] %}
       
       {% when 'tags'%}
@@ -40,6 +55,8 @@
         <li class="btn-nav">Blog</li>
       </a>
       {% endcase %}
+      {% endcase %}
+      
     </ul>
   </nav>
 </header>

@@ -15,9 +15,9 @@ theme_settings :
     experience :
       - start : 11-07-2019 
         end : present
-        experience : amfoss club
+        experience : <a href="https://amfoss.in/">amfoss-club</a>
     skills : 
-      - skill : HTML5, CSS
+      - skill : HTML5
         value : 75  # Percent value
       - skill : django
         value : 79
