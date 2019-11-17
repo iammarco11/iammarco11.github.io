@@ -3,8 +3,32 @@
 <header>
   <nav>
     <ul>
+        {% case current[0] %}
       
-      {% case current[-1] %}
+        {% when 'tags'%}
+        <!-- tags -->
+        <a href="{{ site.url }}">
+          <li class="btn-nav">Home</li>
+        </a>
+        <a href = "{{site.url}}/tags/">
+          <li class="current">Tags</li>
+        </a>
+        <a href="{{ site.url }}/blog">
+          <li class="btn-nav">Blog</li>
+        </a>
+        <!-- blog -->
+        {% when 'blog'%}
+        <a href="{{ site.url }}">
+          <li class="btn-nav">Home</li>
+        </a>
+        <a href="{{ site.url }}/tags">
+          <li class="btn-nav">Tags</li>
+        </a>
+        <a href="{{site.url}}/blog/">
+          <li class="current">Blog</li>
+        </a>
+        {%else%}
+        {% case current[-1] %}
       {%when 'html'%}
       <a href="{{ site.url }}">
         <li class="btn-nav">Home</li>
@@ -15,45 +39,23 @@
       <a href="{{site.url}}/blog/">
         <li class="current">Blog</li>
       </a>
+        
+        {% else %}
+        <!-- others -->
+        <a href="{{ site.url }}">
+          <li class="current btn-nav">Home</li>
+        </a>
+        <a href="{{ site.url }}/tags">
+          <li class="btn-nav">Tags</li>
+        </a>
+        <a href="{{ site.url }}/blog">
+          <li class="btn-nav">Blog</li>
+        </a>
       
-      {%else%}
+        
       
-      {% case current[0] %}
       
-      {% when 'tags'%}
-      <!-- tags -->
-      <a href="{{ site.url }}">
-        <li class="btn-nav">Home</li>
-      </a>
-      <a href = "{{site.url}}/tags/">
-        <li class="current">Tags</li>
-      </a>
-      <a href="{{ site.url }}/blog">
-        <li class="btn-nav">Blog</li>
-      </a>
-      <!-- blog -->
-      {% when 'blog'%}
-      <a href="{{ site.url }}">
-        <li class="btn-nav">Home</li>
-      </a>
-      <a href="{{ site.url }}/tags">
-        <li class="btn-nav">Tags</li>
-      </a>
-      <a href="{{site.url}}/blog/">
-        <li class="current">Blog</li>
-      </a>
       
-      {% else %}
-      <!-- others -->
-      <a href="{{ site.url }}">
-        <li class="current btn-nav">Home</li>
-      </a>
-      <a href="{{ site.url }}/tags">
-        <li class="btn-nav">Tags</li>
-      </a>
-      <a href="{{ site.url }}/blog">
-        <li class="btn-nav">Blog</li>
-      </a>
       {% endcase %}
       {% endcase %}
       
