@@ -13,7 +13,10 @@ var dp = ''
 
 function on_hover(id){
        
-    k = document.getElementById(id) 
-    k.style.display = "block"
-    console.log(k)
+    document.getElementById(id).src = "/assets/img/dp1.jpg"
+     
+}
+
+function not_on_hover(id){
+    document.getElementById(id).src = "/assets/img/dp.jpg"
 }
