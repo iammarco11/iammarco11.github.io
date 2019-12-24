@@ -1,4 +1,6 @@
 # Site Settings
+name: iammarco11 blog
+description: just my experiences in open source :)
 baseurl: ""
 url : "https://iammarco11.github.io"
 
