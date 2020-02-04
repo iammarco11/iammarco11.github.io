@@ -16,13 +16,16 @@ When the work period started I contacted my mentor and the irc channel of KDE we
 * Added more relavent items to the navigation bar.
 * Shifted the blogposts from homepage to a separate page called Blog.
 * Fixed the broken links in the website.
+![]({{site.url}}/assets/img/umbrello-blog.png)
 
 # Week 2
 I contacted the dev team and Carl regarding suggestions. Carl said the homepage wasn't attarctive as it didn't have any Screenshots. The homepage screenshot wasn't zoomed enough so it didn't look good. But I was occupied with some work of my University also. So I couldn't focus on the homepage for this week. <br>
 
 * Ported the entire features table from PHP to Markdown.
+![]({{site.url}}/assets/img/umbrello-features.png)
 * The installation page was ported from PHP to Markdown.
 * Fixed the installation page and added the correct links for the same in the homepage.
+![]({{site.url}}/assets/img/umbrello-installation.png)
 * Got some screenshots.
 
 # Week 3
@@ -31,3 +34,5 @@ This week I had much more time to focus on the Homepage. So I got some screensho
 * Redesigned the entire homepage of the website.
 * Added a better screenshot alongside the title.
 * Added a new section stating the themes supported by Umbrello.
+
+![]({{site.url}}/assets/img/umbrello-homepage.png)
