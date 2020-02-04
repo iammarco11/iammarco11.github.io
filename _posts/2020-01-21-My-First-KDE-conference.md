@@ -5,6 +5,7 @@ subtitle : conf.kde.in 2020
 tags: [KDE,conference,conf.kde.in]
 author: Akshay Praveen Nair
 ---
+
 Finaly, I got a chance to attend the conf.kde.in. I was very excited to attend the conference as this was my first chance to interact with my fellow Indian contributors as well as some veterans. I was also looking forward to attend the workshops on Qt and QML. I will share my day by day experience over here :)
 <br>
 
@@ -22,3 +23,13 @@ At the end it was a workshop on introduction to Qt by Bhushan Shah. This was my 
 <br>
 
 # Day 2
+Was very excited for this day as there was a workshop that I was very much looking forward to.
+<br>
+
+The day started with Piyush Aggarwal talking about KDE connect also showing the large code base and explaining the where all he contributed. In this talk he explained the benefits of using KDE connect and how great the application was, as when connected we didn't need to always check the mobile phone for the notifications we receive.
+<br>
+
+Then came Shantanu Tushar of SoStronk a start up. He talked about basic QML applications. He stated how simple animations can be made in a QML application and how easy can the developers understand the code. It was very nice.
+<br>
+
+Next was the talk I was very much looking forward to. Arjen Hiemstra, a veteran to open source talked about how he worked with QtQuick to make a scene graph
